@@ -96,8 +96,8 @@ function getDymo91386000Label() {
     <Id>Labtag Cryogenic Labels</Id>
     <IsOutlined>false</IsOutlined>
     <CustomPaper>
-      <Size Width="2000" Height="3600" />
-      <PrintableSize Width="2000" Height="3600" />
+      <Size Width="2600" Height="3600" />
+      <PrintableSize Width="2600" Height="3600" />
       <PrintableOrigin X="0" Y="0" />
       <Offset X="0" Y="-400" />
     </CustomPaper>
@@ -121,7 +121,7 @@ function getDymo91386000Label() {
         <HorizontalAlignment>Center</HorizontalAlignment>
         <VerticalAlignment>Center</VerticalAlignment>
       </ImageObject>
-      <Bounds X="0" Y="300" Width="600" Height="1200" />
+      <Bounds X="0" Y="1000" Width="600" Height="1200" />
     </ObjectInfo>
     <ObjectInfo>
       <ImageObject>
@@ -139,7 +139,12 @@ function getDymo91386000Label() {
         <HorizontalAlignment>Center</HorizontalAlignment>
         <VerticalAlignment>Center</VerticalAlignment>
       </ImageObject>
-      <Bounds X="0" Y="350" Width="350" Height="350" />
+      <Bounds X="0" Y="240" Width="350" Height="350" />
     </ObjectInfo>
   </DieCutLabel>`;
+  
+//+x = down the roll
+//+y = to the left
+//neg does not work! change offset instead, keep in mind offset x is intuitive left -x right +x and y is vertical
+  
 }
